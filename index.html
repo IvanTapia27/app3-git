@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Segunda Aplicacion</title>
+ 
+  <!--grupo CSS-->
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <link rel="stylesheet" href="css/tema-app3.min.css"/> 
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+  </head>
+  <body onLoad="MM_preloadImages('imagenes/planeta4.jpg','imagenes/planeta1.jpg','imagenes/mar2.jpg','imagenes/justin.jpg','imagenes/lumia.jpg','imagenes/mundi.jpg','imagenes/radioactiva.jpg','imagenes/playa.jpg','imagenes/contami.jpg')">
+   
+  <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"   data-back-btn-theme="a">
+   <h2>Contaminacion Mundial</h2>
+    </div> 
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+     <h1>Este es un planeta dañado por la contaminacion mundial</h1>
+      <div>
+       <br>
+       </div>
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1a','','imagenes/planeta4.jpg',1)">  <img src="imagenes/planeta5.jpg" width="50%" height="50%" id="Image1a"></a></div>
+      </div>
+    </div>
+       <div>
+        <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-c">
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Definicion</h2>
+          </a>
+          </li>
+             <li class="ui-first-child ui-last-child">
+              <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Tipos de contaminacion</h2>
+               </a>
+          </li>
+                 <li class="ui-first-child ui-last-child">
+                  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Consecuencias</h2>
+                  </a>
+          </li>
+                  <li class="ui-first-child ui-last-child">
+                  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2> Medidas preventivas </h2>
+                  </a>
+                  </li>
+                   <li class="ui-first-child ui-last-child">
+                  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Las tres "Rs"</h2>
+                  </a>
+                  </li>
+                  
+                  <li class="ui-first-child ui-last-child">
+                  <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>La Contaminacion en mi Entorno</h2>
+                  </a>
+                  </li>
+         </ul>
+    </div>
+    
+                  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                  <div>
+                  <img src="res/android/mdpi.png" width="46" height="46">
+                  
+                  </div>
+                  <div>
+                    <h4>Aplicacion TRES, TAEI</h4>
+                    <h4>contaminacion y reciclaje</h4>
+                    </div>
+                    </div>
+                    </div>
+                    
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        <h1>DEFINICION</h1>
+               </div>
+               <div data-role="content" align="center">
+               <div>
+               <h2>¿Que es Contaminacion?</h2>
+               </div>
+                
+                           
+               <div data-role="collapsible" data-content-theme="false">
+                         <h1>Ejemplo de Contaminacion</h1>
+                         <div>
+                         <p>esto es contaminacion</p>
+                         <br>
+                         </div>
+                         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2a','','imagenes/planeta1.jpg',1)"><img src="imagenes/planeta2.jpg" width="259" height="194" id="Image2a"></a> 
+         </div>
+         </div>
+         <p> La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1 El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+
+Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.
+
+La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.), los residuos urbanos, el petróleo, o las radiaciones ionizantes. Todos estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático.
+
+Hay muchas formas de combatir la contaminación, y legislaciones internacionales que regulan las emisiones contaminantes de los países que adhieren estas políticas. La contaminación está generalmente ligada al desarrollo económico y social. Actualmente muchas organizaciones internacionales como la ONU ubican al desarrollo sostenible como una de las formas de proteger al medioambiente para las actuales y futuras generaciones.</p>
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                           <img src="res/android/mdpi.png" width="46" height="46">
+                            <h4> Aplicacion TRES, TAEI</h4>
+                            </div>
+                            </div>
+                            </div>
+                            
+  
+                       
+                            
+                            
+                            
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                        <h1>Tipos de Contaminacion</h1>
+            </div>
+                          <div data-role="content" align="center">
+                          <div>
+                          <h2>Estos son los tipos de contaminacion</h2>
+                          </div>
+                          
+  <div data-role="collapsible" data-content-theme="false">
+                          <h2>Contaminacion del Agua </h2>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3a','','imagenes/mar2.jpg',1)"><img src="imagenes/mar1.jpg" width="50%" height="50%" id="Image3a"></a> 
+                           <p>Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos cuerpos de agua. Varias criaturas acuáticas                             dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.
+                            Contaminación del Agua.</p>
+  </div>
+                           
+                              <div data-role="collapsible" data-content-theme="false">
+                                                       <h2>Contaminacion Acustica </h2>
+                                                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/justin.jpg',1)"><img src="imagenes/audi.jpg" width="50%" height="50%" id="Image16"></a>
+                                                  <p>la contaminación acústica es el tipo de contaminación que se produce por diferentes fuentes de audio que está causando la sensación de irritación, distracción para nuestro medio ambiente. Esta contaminación no es no sólo perturbar el medio ambiente sino que también produce daño a nuestra humanidad.</p> </div>      
+                                                     
+                              <div data-role="collapsible" data-content-theme="false">
+                                                      <h2>Contaminacion Luminica</h2>
+                                                      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/lumia.jpg',1)"><img src="imagenes/lumi.jpg" width="50%" height="50%" id="Image17"></a>
+                            <p>De acuerdo con el Servicio de Parques Nacionales, a la luz de los Estados Unidos por encima de lo que se requiere es llamada contaminación lumínica. La Asociación Internacional Cielo Oscuro define la contaminación lumínica a los efectos nocivos de la luz artificial en la atmósfera de la Tierra y el medio ambiente.</p>
+  </div>
+                                                        
+                              <div data-role="collapsible" data-content-theme="false">
+                                                         <h2>Contaminacion Termica</h2>   
+                                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/mundi.jpg',1)"><img src="imagenes/termi.jpg" width="50%" height="50%" id="Image18"></a>
+                                <p>Es un hecho bien conocido que la quema de combustibles fósiles en centrales eléctricas, hornos industriales y motores de vehículos causa la contaminación del aire. Sin embargo, un menor impacto conocido asociado con estos procesos de generación de energía es la contaminación térmica. La contaminación térmica se refiere a la adición de grandes cantidades de calor residual para el medio ambiente, las causas de la contaminación térmica son casi las mismas que las que causa la contaminación del aire.</p>
+  </div>
+                                
+                              <div data-role="collapsible" data-content-theme="false">
+                                                         <h2>Contaminacion Radioactiva</h2> 
+                                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/radioactiva.jpg',1)"><img src="imagenes/bomba.jpg" width="50%" height="50%" id="Image19"></a>
+                                <p>La contaminación radioactiva disminuye con el tiempo, por lo que los residuos se aísla típicamente y se almacenan durante un período de tiempo hasta que ya no representa un peligro. El período de tiempo de residuos se deben almacenar depende del tipo de residuos. Bajo nivel de residuos con bajos niveles de radiactividad por masa o volumen (por ejemplo, algunos residuos comunes radiactivas médicas o industriales) puede ser necesario almacenar durante sólo unas horas, días o meses, mientras que residuos de alto nivel (como el combustible nuclear gastado o subproductos de reprocesamiento nuclear) deben ser almacenados durante miles de años. Actuales enfoques principales para la gestión de residuos radiactivos han habido separación y almacenamiento de residuos de vida corta, cerca de la superficie de eliminación de baja y algunos residuos de media, y el entierro profundo o transmutación de los de vida larga y de alto nivel residuos.</p>
+  </div>
+                                <div data-role="collapsible" data-content-theme="false">
+                                  <h2>Contaminacion del Suelo</h2> 
+                                  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/playa.jpg',1)"><img src="imagenes/suelo.jpg" width="50%" height="50%" id="Image20"></a>
+                                  <p>La contaminación del suelo se refiere a la contaminación del suelo por medio de exceso de fertilizantes, productos químicos, insecticidas, herbicidas, pesticidas, etc provocan contaminación del suelo en la disminución de la calidad del suelo y es causada por la erosión del suelo, el exceso o déficit de humedad, disminución de la nutrientes para las plantas o microorganismos del suelo, y la fluctuación de la temperatura alta.</p>
+                                  </div>
+                                  
+                                  
+                               <div data-role="footer" data-theme="b" data-position="fixed">
+                               <img src="res/android/mdpi.png" width="46" height="46">
+                               <h4> Aplicacion TRES, TAEI</h4>
+                              </div>
+                              </div>
+                                </div>
+                                                        
+                                                                             
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+                            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                             <h1>Consecuencias de la contaminacion</h1>
+                              </div>
+                            <div data-role="content" align="center">
+                            <div>
+                           <h2>Estas son las consecuencias de la contaminacion mundial</h2>
+                            <div data-role="collapsible" data-content-theme="false">
+                           <h3> Problemas de salud</h3>
+                           <p>La contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.</p>
+                           
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/contami.jpg',1)"><img src="imagenes/boy.jpg" width="720" height="390" id="Image25"></a> 
+                           </div>
+                           <div data-role="collapsible" data-content-theme="false">
+                            <h4> Debilitamiento de la capa de ozono:</h4>
+                           <p>la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta. Esto no solo hace que cada vez haya más zonas desiertas en las que es imposible vivir, sino que también hace que el hielo en los polos se deshaga y mueran muchas especies por ello. No hace falta mencionar que esto hace subir indudablemente el nivel del mar y que, de seguir así, muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin zona costera.</p>
+                           <img src="imagenes/ozono.jpg" width="50%" height="50%" alt=""> </div>
+                            <div data-role="collapsible" data-content-theme="false">
+                            <h5> Calentamiento Global</h5>
+                           <p>Calentamiento global y cambio climático se refieren al aumento observado en los últimos siglos de la temperatura del sistema climático de la Tierra y sus efectos
+Múltiples líneas de pruebas científicas demuestran que el sistema climático se está calentando.Aunque a menudo la prensa popular comunica el incremento de la temperatura atmosférica superficial como medición del calentamiento global, la mayor parte de la energía adicional almacenada en el sistema climático desde 1970 se ha usado en calentar los océanos. El resto ha fundido el hielo y calentado los continentes y la atmósfera nota 1 Muchos de los cambios observados desde la década de 1950 no tienen precedentes en décadas, aun milenios.</p>
+                            <img src="imagenes/mitad.jpg" width="50%" height="50%">
+                            </div>
+                            </div>
+                          
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                           <img src="res/android/mdpi.png" width="46" height="46">
+                            <h4> Aplicacion TRES, TAEI</h4>
+                            </div>
+                            </div>
+                            </div>
+                            
+                <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                          <h1>Medias Preventivas</h1>
+                          </div>
+                          <div data-role="content" align="center">
+                          <div>
+                         
+                          <div data-role="collapsible" data-content-theme="false">
+                          <h2>Imagen</h2>
+                          <img src="imagenes/alto.jpg" width="50%" height="50%"> 
+                          </div>
+                          <p>Crear conciencia ciudadana.</p>
+                          <p>No quemar ni talar plantas.</p>
+                          <p>Colocar la basura en los lugares apropiados.</p>
+                          <p>Regular el servicio de aseo urbano.</p>
+                          <p>Controlar el uso de fertilizantes y pesticidas.</p>
+                          <P>Crear vías de desagüe para las industrias que no lleguen a los mares o ríos utilizados para el servicio o consumo del ser humano o de los animales.</p>
+                          <p>Controlar los derrames accidentales de petróleo.</p>
+                          <p>Controlar los relaves mineros.</p>
+                          <p>Reciclar objetos (darles un nuevo uso).</p>
+                          <p>Tomar y generar conciencia de lo que está sucediendo.</p>
+                          <p>Realizar campañas de apoyo.</p>
+                          <p>Evitar el uso de aerosoles.</p>
+                          <p>Tener sentido de responsabilidad.</p>
+                          
+                         
+
+                            <div data-role="footer" data-theme="b" data-position="fixed">
+                            <img src="res/android/mdpi.png" width="46" height="46">
+                            <h4> Aplicacion TRES, TAEI</h4>
+                            </div>
+                            </div>
+                           </div>
+                            </div>
+                     
+                             <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+                          <h1>Las 3 "Rs"</h1>
+                          </div>
+                          <div data-role="content" align="center">
+                          <div>
+                          
+                           <div data-role="collapsible" data-content-theme="false">
+                          <h1>REDUCE</h1>
+                          <p>Cuando hablamos de reducir lo que estamos diciendo es que se debe tratar de reducir o simplificar el consumo de los productos directos, o sea, todo aquello que se compra y se consume, ya que esto tiene una relación directa con los desperdicios, y a la vez con nuestro bolsillo. Por ejemplo, en vez de comprar 6 botellas pequeñas de una bebida, se puede conseguir una o dos grandes, teniendo la misma cantidad de producto pero menos envases, no pedir bolsas en los supermercados a menos que sea necesario, reducir el consumo de papel, etc. </p>
+                <img src="imagenes/reduce3.jpg" width="50%" height="50%">
+                           </div>
+                          <div data-role="collapsible" data-content-theme="false">
+                          <h1>RECICLAR</h1>
+                          <p>La mayoría de los materiales que usamos pueden ser reciclados y usados en otras aplicaciones; materiales como el vidrio, pueden reciclarse 40 veces por ejemplo, el plástico se puede reciclar calentándolo hasta que se funda dándole una nueva forma. Es nuestro compromiso reciclar lo mayor posible y disminuir la producción de basura "nueva". </p>
+                          <img src="imagenes/recicla.jpg" width="50%" height="50%"> 
+                          </div>
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>REUTILIZA</h1>
+        <p>Al decir reutilizar, nos estamos refiriendo a poder volver a utilizar las cosas, dándole una vida útil a embalajes o materiales que usamos día a día y darles un uso lo más prolongado posible antes de que llegue la hora de deshacernos de ellos definitivamente, disminuyendo así el volumen de la basura y reduciendo el impacto en el medio ambiente. </p>
+        <img src="imagenes/reutilizar.jpg" width="50%" height="50%">
+        </div>
+        </div>
+                            
+             
+                         <div data-role="footer" data-theme="c" data-position="fixed">
+                         <img src="res/android/mdpi.png" width="46" height="46">
+                         <h4>Aplicacion TRES, TAEI</h4>
+                         </div>
+                         </div>
+                          </div>
+                          
+       
+                         
+                 
+                            <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+                
+                <div data-role="footer" data-theme="c" data-position="fixed">
+                         <img src="res/android/mdpi.png" width="" height="46">
+                         </div>
+                          <h1>Medidas de prevencion</h1>
+                          </div>
+                          <div data-role="content" align="center">
+                          
+                          <!-- Start WOWSlider.com BODY section -->
+      <div id="wowslider-container1">
+      <div class="ws_images"><ul>
+		<li><img src="data1/images/medi4.jpg" alt="medi4" title="medi4" id="wows1_0"/></li>
+		<li><img src="data1/images/medio1.jpg" alt="medio1" title="medio1" id="wows1_1"/></li>
+		<li><img src="data1/images/medio2.jpg" alt="medio2" title="medio2" id="wows1_2"/></li>
+		<li><img src="data1/images/medio3.jpg" alt="medio3" title="medio3" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/medio5.jpg" alt="wow slider" title="medio5" id="wows1_4"/></a></li>
+		<li><img src="data1/images/medio6.jpg" alt="medio6" title="medio6" id="wows1_5"/></li>
+      </ul></div>
+      <div class="ws_bullets"><div>
+		<a href="#" title="medi4"><span><img src="data1/tooltips/medi4.jpg" alt="medi4"/>1</span></a>
+		<a href="#" title="medio1"><span><img src="data1/tooltips/medio1.jpg" alt="medio1"/>2</span></a>
+		<a href="#" title="medio2"><span><img src="data1/tooltips/medio2.jpg" alt="medio2"/>3</span></a>
+		<a href="#" title="medio3"><span><img src="data1/tooltips/medio3.jpg" alt="medio3"/>4</span></a>
+		<a href="#" title="medio5"><span><img src="data1/tooltips/medio5.jpg" alt="medio5"/>5</span></a>
+		<a href="#" title="medio6"><span><img src="data1/tooltips/medio6.jpg" alt="medio6"/>6</span></a>
+	        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+        <div class="ws_shadow"></div>
+        </div>	
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
+
+                          <h2>Estas son mis propuestas para evitar la contaminaion ambiental</h2>
+                          <div>
+                           <div data-role="collapsible" data-content-theme="false">
+                          <h3>Propuesta #1</h3> 
+                          <p>Una de mis ideas para disminuir la contaminacion ambiental , es declararque , por lo menos un solo pais no use Un automovil y se usen cosas mas sanas y ecologicas como vicicletas o caminar , todo esto por 24hrs.</p>
+                          <img src="imagenes/planeta5.jpg" width="50%" height="50%">
+                          </div>
+                          
+                          <div data-role="collapsible" data-content-theme="false">
+                          <h3>Propuesta #2</h3> 
+                          
+                          <p>Plantar arboles en todas las escuelas y los hospitales para generar mas oxigeno</p>
+                          <img src="imagenes/planeta3.jpg" width="50%" height="50%">
+                          </div>
+                          <p>Te doy las gracias por instalar mi aplicacion , espero  te ayudara a reflexionar para cuidar nuestro medio ambiente y proteger nuestro planbeta tierra </p>
+                          <br>
+                          <br>
+                 <p>Si quieres saber mas sobre como proteger nuestro medio ambiente puedes consultar las siguientes paginas </p>
+                          <a href="https://www.gob.mx/profepa" target="_self">Profepa</a>
+                          <br>
+                          <br>
+                          <br>
+                          <a href="http://www.spabc.gob.mx/" target="_self">spabc</a>
+                          <br>
+                          <br>
+                          <br>
+                          <a href="http://www.wwf.org.mx/" target="_self">WWF</a>
+                          </div>
+                          
+                            
+             
+                         <div data-role="footer" data-theme="c" data-position="fixed">
+                         <img src="res/android/mdpi.png" width="46" height="46">
+                         <h4>Aplicacion TRES, TAEI</h4>
+                         </div>
+                         </div>
+                         </div>
+                         
+                           
+                           
+
+
+</body>
+</html>
